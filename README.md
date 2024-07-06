@@ -1,5 +1,5 @@
 # DNSRecon GUI
-
+## Version 1.0.0
 DNSRecon GUI is a graphical user interface for DNS reconnaissance using the DNSRecon tool. It provides an intuitive way to perform various DNS enumeration and analysis tasks through a user-friendly interface.
 
 ![DNSRecon GUI Screenshot](screenshot.png)
@@ -28,6 +28,26 @@ To run DNSRecon GUI, ensure you have Python and PyQt5 installed.
 3. **Options Tab:** Configure advanced options and settings.
 4. **Run DNSRecon:** Click "Run DNSRecon" to execute the command with selected parameters.
 5. **View Results:** Output will be displayed in the text area below.
+
+## Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/alyaparan/dnsrecon-gui.git
+    cd dnsrecon-gui
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    pip install PyQt5
+    ```
+
+3. **Run the application:**
+
+    ```bash
+    python dnsrecon_gui.py
 
 ## Contributing
 
